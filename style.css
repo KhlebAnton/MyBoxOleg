@@ -1208,7 +1208,7 @@ letter-spacing: 3.6px;
         background-image: url("img/load_img/Экран-Пиксельарт-3-горизонтальная-812x375.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        background-position-y: 80%;
+        /* background-position-y: 90%; */
 
     }
 
