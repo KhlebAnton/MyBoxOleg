@@ -1205,7 +1205,7 @@ letter-spacing: 3.6px;
     }
 
     .loadscreen {
-        background-image: url("img/load_img/Экран-Пиксельарт-3-горизонтальная-812x375.jpg");
+        background-image: url("img/load_img/MYBOX_Loading_screen_812px_375px.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         /* background-position-y: 90%; */
@@ -1290,7 +1290,7 @@ letter-spacing: 3.6px;
         top: calc(50% - 100px);
     }
     .loadscreen {
-        background-image: url("img/load_img/Экран\ Пиксельарт\ 3\ горизонтальная\ 1920x1080.png");
+        background-image: url("img/load_img/MYBOX_Loading_screen_1920px_1080px.jpg");
     }
 
     .screen {
