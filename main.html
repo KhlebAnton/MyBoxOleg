@@ -487,7 +487,7 @@
         </div>
         <h1>потрачено</h1>
         <div class="btn_group">
-            <div onclick="UIAPI.EndGame.onAddScore(), UIAPI.RotateScreen.onPlayGame(), againGame(this)"
+            <div onclick="UIAPI.EndGame.onAddScore(), UIAPI.RotateScreen.onPlayGame(), againGame(this), document.removeEventListener('keydown', keyEnter);"
                 class="btn_again_game">Вернуться в игру
             </div>
             <div onclick="UIAPI.EndGame.onAddScore(), next(this, '.kissing_animation', true), Analytics.onPrincessClick()"
@@ -1498,35 +1498,18 @@
                         if (hearts != 0) {
                             document.querySelector('.btn_kiss_princess').classList.add('hidden')
                             document.querySelector('.btn_again_game').classList.remove('hidden')
-                            document.addEventListener('keydown', function (event) {
+                            function keyEnter(event) {
                                 if (event.keyCode === 13) {
                                     document.querySelector('.btn_again_game').click();
-                                    document.removeEventListener('keydown', function (event) {
-                                        if (event.keyCode === 13) {
-                                            document.querySelector('.btn_again_game').click();
-                                        }
-                                    });
-
-
                                 }
-                            });
+                            }
+                            document.addEventListener('keydown', keyEnter);
 
 
                         } else {
                             document.querySelector('.btn_kiss_princess').classList.remove('hidden')
                             document.querySelector('.btn_again_game').classList.add('hidden')
-                            document.addEventListener('keydown', function (event) {
-                                if (event.keyCode === 13) {
-                                    document.querySelector('.btn_kiss_princess').click();
-                                    document.removeEventListener('keydown', function (event) {
-                                        if (event.keyCode === 13) {
-                                            document.querySelector('.btn_kiss_princess').click();
-                                        }
-                                    });
 
-
-                                }
-                            });
                         }
 
 
