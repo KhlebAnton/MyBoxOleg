@@ -497,7 +497,7 @@
         </div>
 
     </div>
-    <div class="screen game_start game_go game_end_lifes question_exchange hidden">
+    <div class="screen game_start game_go game_end_lifes question_exchange">
         <div class="game_portrait">
             <div class="knight"></div>
             <div class="footer">
@@ -636,8 +636,8 @@
                 </div>
 
             </div>
-            <div style="min-height:150px;" class="words_cloud">Поздравляем!<br> Ты заработал <span class="coin">0</span>
-                монет,
+            <div style="min-height:150px;" class="words_cloud">Поздравляем!<br> У тебя <span class="coin">0</span>
+                <span id="count_word">монет</span>,
                 они доступны в течении 10 дней, успей их обменять на сертификаты!
                 <div onclick="UIAPI.EndGame.onAddScore(), nextShop(this, '.shop'), Analytics.onShowShop()"
                     class="close_word"></div>
@@ -1494,6 +1494,7 @@
                         updateLifeApp(hearts);
                         updateCoinApp(coinsTotal);
                         updateWinCoins(coins);
+                        wordCount(coinsTotal);
 
                         if (hearts != 0) {
                             document.querySelector('.btn_kiss_princess').classList.add('hidden')

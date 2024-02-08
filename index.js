@@ -110,6 +110,19 @@ function copyPromo() {
     });
 }
 
+// склоенение "монет" 
+const countWord = document.getElementById('count_word')
+function wordCount(count) {
+  let lastInt = count % 10
+  if(lastInt == 1) {
+    countWord.innerHTML = 'монета'
+  } else if(lastInt > 1 && lastInt < 5) {
+    countWord.innerHTML = 'монеты'
+  } else {
+    countWord.innerHTML = 'монет'
+  }
+}
+
 function isIOS() {
   if (/iPad|iPhone|iPod/.test(navigator.platform)) {
     return true;
