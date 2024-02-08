@@ -1499,11 +1499,6 @@
                         if (hearts != 0) {
                             document.querySelector('.btn_kiss_princess').classList.add('hidden')
                             document.querySelector('.btn_again_game').classList.remove('hidden')
-                            function keyEnter(event) {
-                                if (event.keyCode === 13) {
-                                    document.querySelector('.btn_again_game').click();
-                                }
-                            }
                             document.addEventListener('keydown', keyEnter);
 
 

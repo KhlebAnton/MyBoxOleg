@@ -95,7 +95,12 @@ function updateCoinApp(coinItem) {
     coin.innerHTML = coinItem;
   })
 }
-
+//enter заново играть 
+function keyEnter(event) {
+  if (event.keyCode === 13) {
+      document.querySelector('.btn_again_game').click();
+  }
+}
 
 //копирование промо 
 function copyPromo() {
