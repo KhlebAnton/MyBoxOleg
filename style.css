@@ -552,7 +552,7 @@ input:focus {
 
 .game_end_lifes {
     background-image: url("img/Girl.png");
-    background-size: 32%;
+    background-size: 25%;
     background-position: 10% 95%;
     background-repeat: no-repeat;
 }
