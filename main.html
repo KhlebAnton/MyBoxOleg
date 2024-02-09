@@ -7,7 +7,7 @@
         content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover">
     <title>БОКСИ: спасение Принцессы</title>
     <link rel="icon" href="https://mybox.ru/favicon.ico">
-    <link rel="stylesheet" href="style.css?v=38">
+    <link rel="stylesheet" href="style.css?v=39">
 
 
     <!-- Yandex.Metrika counter -->
@@ -75,7 +75,9 @@
         ">
     </div>
 
+    <div class="screen preoladed ">
 
+    </div>
     <div class="screen loadscreen ">
 
         <div class="load">
@@ -208,9 +210,7 @@
                     </defs>
                 </svg>
             </div>
-            <p style="min-height: 222px" class="words_cloud">Привет! Ты в игре «Олег в поисках любви». Олег – курьер,
-                который копит монеты на роллы для своей любимой к 14 февраля. У тебя 5 игр в день. Копи монеты и меняй
-                их на сертификаты или майбаксы. Как бонус, прыгай на жвачки и получай +25 монет. Удачи!</p>
+            <img style="width: 55%; position: fixed; right: 5%;" src="img/cloud_words/wordsOlegHello.png" alt="" class="cloud_img words_hello">
             <div class="btn_next active_btn" onclick="startGame(this)">
                 Старт
             </div>
@@ -638,7 +638,7 @@
             </div>
             <div style="min-height:150px;" class="words_cloud">Поздравляем!<br> У тебя <span class="coin">0</span>
                 <span id="count_word">монет</span>,
-                они доступны в течении 10 дней, успей их обменять на сертификаты!
+                они доступны в течение 10 дней, успей их обменять на сертификаты!
                 <div onclick="UIAPI.EndGame.onAddScore(), nextShop(this, '.shop'), Analytics.onShowShop()"
                     class="close_word"></div>
             </div>
@@ -1086,8 +1086,7 @@
                 </div>
 
             </div>
-            <div style="min-height:150px;" class="words_cloud"> На сегодня жизней больше не осталось. Приходи завтра!
-            </div>
+            <img style="width: 50%; position: fixed; right: 5%; top: 20%;" src="img/cloud_words/wordsEnd.png" alt="" class="cloud_img words_end">
         </div>
     </div>
     <div class="screen game_over kissing_animation hidden">
@@ -1395,7 +1394,8 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous">
         </script>
-    <script src="index.js?v=38"></script>
+    <script src="index.js?v=39"></script>
+    <canvas tabindex=0 id="unity-canvas" width=1% height=1% style="width: 1%; height: 1%; background: #231F20"></canvas>
 
     
     <!--<script src="Build/_Build.loader.js"></script>-->

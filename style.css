@@ -15,6 +15,15 @@ a {
     color: #F6F6F6;
 }
 
+.preoladed {
+    background: url('img/animation/Boy-and-girl-Animation.gif') 100% / 1% no-repeat, 
+    url('img/cloud_words/wordsEnd.png') 100% / 1% no-repeat,
+    url('img/cloud_words/wordsOlegHello.png') 100% / 1% no-repeat;
+    position: absolute;
+    bottom: -200%;
+    
+}
+
 .game_go.game_play.game_play_paused {
     height: 100%;
 }
@@ -590,36 +599,10 @@ input:focus {
     bottom: 0;
     left: 0;
     right: 0;
-    background:url("img/animation/love.svg") 50% 0 / 0% no-repeat ,
-                url("img/Knight.png") 30% / 20% no-repeat, 
-                url("img/Girl.png") 70% / 25% no-repeat;
-    animation: kiss 1.5s infinite;
-    
+    background:url("img/animation/Boy-and-girl-Animation.gif") 50% / contain no-repeat;
 
 }
 
-@keyframes kiss {
-    10% {
-        background:url("img/animation/love.svg") 50% 30% / 0% no-repeat,
-        url('img/Knight.png') 35% / 20% no-repeat,url("img/Girl.png") 65% / 25% no-repeat;
-    }
-
-    30% {
-        background:url("img/animation/love.svg") 50% 30% / 0% no-repeat,
-        url('img/Knight.png') 40% / 20% no-repeat,url("img/Girl.png") 60% / 25% no-repeat;
-    }
-
-    60% {
-        background:url("img/animation/love.svg") 50% 30% / 0% no-repeat,
-        url('img/Knight.png') 50% / 20% no-repeat,url("img/Girl.png") 50% / 25% no-repeat;
-    }
-
-    100% {
-        background:url("img/animation/love.svg") 50% 35% / 10% no-repeat,
-        url('img/Knight.png') 30% / 20% no-repeat , 
-        url("img/Girl.png") 70% / 25% no-repeat;
-    }
-}
 
 
 
