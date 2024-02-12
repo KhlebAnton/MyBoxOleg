@@ -1427,6 +1427,7 @@
                     PhoneCorrect: (msg) => {
                         if (msg === "") {
                             nextRegistration();
+                            inputs[0].focus()
                         } else {
                             //alert("Повторный код можно отправить не менее чем за 120 секунд");
                             alert("Ошибка!\n" + msg);
