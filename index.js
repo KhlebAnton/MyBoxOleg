@@ -141,9 +141,9 @@ let pageUrl;
 // клик на скачивание 
 function goClickedLink(e) {
   if(isIOS) {
-    pageUrl = 'https://apps.apple.com/ru/app/mybox-%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0-%D0%B5%D0%B4%D1%8B-%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%D1%8B/id1167100370'
+    pageUrl = 'https://redirect.appmetrica.yandex.com/serve/172799697688239596'
   } else {
-    pageUrl = 'https://play.google.com/store/apps/details?id=ru.mybox.app&hl=ru&gl=US'
+    pageUrl = 'https://redirect.appmetrica.yandex.com/serve/172799697688239596'
   }
   window.location.href = pageUrl;
 }
