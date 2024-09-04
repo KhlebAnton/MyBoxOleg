@@ -677,35 +677,35 @@ svg {
 
 
 .set_afrika {
-    background: url("img/menu_cards/set_afrika.svg") 50% / contain no-repeat;
+    background: url("img/menu_cards/set_afrika.png") 50% / contain no-repeat;
 }
 
 .california {
-    background: url('img/menu_cards/california.svg') 50% / contain no-repeat;
+    background: url('img/menu_cards/california.png') 50% / contain no-repeat;
 }
 
 .sale_price {
-    background: url('img/menu_cards/sale_price.svg') 50% / contain no-repeat;
+    background: url('img/menu_cards/sale_price.png') 50% / contain no-repeat;
 }
 
 .trade_coin {
-    background: url('img/menu_cards/trade_coin.svg') 50% / contain no-repeat;
+    background: url('img/menu_cards/trade_coin.png') 50% / contain no-repeat;
 }
 
 .set_afrika.card_active {
-    background: url("img/menu_cards/set_afrika_active.svg") 50% / contain no-repeat;
+    background: url("img/menu_cards/set_afrika_active.png") 50% / contain no-repeat;
 }
 
 .california.card_active {
-    background: url('img/menu_cards/california_active.svg') 50% / contain no-repeat;
+    background: url('img/menu_cards/california_active.png') 50% / contain no-repeat;
 }
 
 .sale_price.card_active {
-    background: url('img/menu_cards/sale_price_active.svg') 50% / contain no-repeat;
+    background: url('img/menu_cards/sale_price_active.png') 50% / contain no-repeat;
 }
 
 .trade_coin.card_active {
-    background: url('img/menu_cards/trade_coin_active.svg') 50% / contain no-repeat;
+    background: url('img/menu_cards/trade_coin_active.png') 50% / contain no-repeat;
 }
 
 .shop .btn_group {
